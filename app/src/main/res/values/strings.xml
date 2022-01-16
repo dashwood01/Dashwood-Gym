@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">DashWood Gym</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="fragment_list_gym_plant">لیست برنامه</string>
+    <string name="txt_text_work_time">زمان تمرین : %s</string>
+    <string name="txt_text_rest_time">زمان استراحت : %s</string>
+    <string name="preference_table">prefTable</string>
+    <string name="preference_key_table">keyTable</string>
+    <string name="edt_hint_name">نام</string>
+    <string name="edt_hint_work_time">تمرین ( ثانیه )</string>
+    <string name="edt_hint_rest_time">استراحت ( ثانیه )</string>
+    <string name="btn_text_cancel">انصراف</string>
+    <string name="btn_text_accept">تایید</string>
+    <string name="toast_error_empty">مقادیر را پر کنید</string>
+    <string name="toast_error_not_save">ذخیره سازی انجام نشد</string>
+</resources>

@@ -1,0 +1,80 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Theme.DashWoodGym" parent="Theme.MaterialComponents.DayNight.DarkActionBar.Bridge">
+        <item name="colorPrimary">@color/dark_200</item>
+        <item name="colorPrimaryVariant">@color/dark_700</item>
+        <item name="colorOnPrimary">@color/black</item>
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_200</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <item name="android:textViewStyle">@style/TextViewStyle</item>
+        <item name="android:buttonStyle">@style/ButtonViewStyle</item>
+        <item name="android:editTextStyle">@style/EditTextStyle</item>
+        <item name="android:editTextPreferenceStyle">@style/EditTextStyle</item>
+        <item name="editTextStyle">@style/EditTextStyle</item>
+        <item name="android:fontFamily">@font/iran_bold_sans</item>
+        <item name="fontFamily">@font/iran_bold_sans</item>
+        <item name="android:direction">right_to_left</item>
+        <item name="android:layoutDirection">rtl</item>
+        <item name="android:windowBackground">@color/dark_700</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="floatingActionButtonStyle">@style/FloatingButtonViewStyle</item>
+    </style>
+
+    <style name="TextViewStyle" parent="Widget.AppCompat.TextView">
+        <item name="fontFamily">@font/iran_bold_sans</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="TextViewStyleNavigation" parent="Widget.AppCompat.TextView">
+        <item name="fontFamily">@font/iran_bold_sans</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="EditTextStyle" parent="Widget.AppCompat.EditText">
+        <item name="fontFamily">@font/iran_bold_sans</item>
+        <item name="android:drawablePadding">5sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="CheckBoxStyle" parent="Widget.AppCompat.CompoundButton.CheckBox">
+        <item name="fontFamily">@font/iran_bold_sans</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="ButtonViewStyle" parent="Widget.AppCompat.Button">
+        <item name="android:fontFamily">@font/iran_bold_sans</item>
+    </style>
+
+    <style name="FloatingButtonViewStyle" parent="Widget.MaterialComponents.FloatingActionButton">
+        <item name="android:fontFamily">@font/iran_bold_sans</item>
+        <item name="fontFamily">@font/iran_bold_sans</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="StyleInputTextLayout" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="android:textColorHint">@color/text_color_black_and_white</item>
+        <item name="hintTextColor">@color/color_orange</item>
+        <item name="boxStrokeColor">@color/color_orange</item>
+        <item name="startIconTint">@color/icon_profile_color</item>
+        <item name="boxCornerRadiusBottomEnd">10sp</item>
+        <item name="android:background">@color/transparent</item>
+        <item name="boxCornerRadiusBottomStart">10sp</item>
+        <item name="boxCornerRadiusTopEnd">10sp</item>
+        <item name="boxCornerRadiusTopStart">10sp</item>
+    </style>
+
+    <style name="StyleInputTextLayoutMenu" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense.ExposedDropdownMenu">
+        <item name="android:textColorHint">@color/text_color_black_and_white</item>
+        <item name="hintTextColor">@color/color_orange</item>
+        <item name="boxStrokeColor">@color/color_orange</item>
+        <item name="startIconTint">@color/icon_profile_color</item>
+        <item name="boxCornerRadiusBottomEnd">10sp</item>
+        <item name="boxCornerRadiusBottomStart">10sp</item>
+        <item name="boxCornerRadiusTopEnd">10sp</item>
+        <item name="boxCornerRadiusTopStart">10sp</item>
+    </style>
+
+
+</resources>
