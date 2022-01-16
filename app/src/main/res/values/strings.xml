@@ -14,4 +14,9 @@
     <string name="btn_text_accept">تایید</string>
     <string name="toast_error_empty">مقادیر را پر کنید</string>
     <string name="toast_error_not_save">ذخیره سازی انجام نشد</string>
+    <string name="fragment_training">شروع تمرین</string>
+    <string name="txt_text_work_time_alone">زمان تمرین</string>
+    <string name="txt_text_round_of_training">مانده از تمرین</string>
+    <string name="txt_text_timer">زمان</string>
+    <string name="txt_text_rest_time_alone">زمان استراحت</string>
 </resources>

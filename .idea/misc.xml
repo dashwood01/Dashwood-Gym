@@ -11,11 +11,14 @@
         <entry key="..\:/DashWood/Workspace/dashwoodgym/app/src/main/res/drawable/background_button_primary.xml" value="0.27282051282051284" />
         <entry key="..\:/DashWood/Workspace/dashwoodgym/app/src/main/res/drawable/background_button_trans.xml" value="0.27282051282051284" />
         <entry key="..\:/DashWood/Workspace/dashwoodgym/app/src/main/res/drawable/background_radius_dialog.xml" value="0.15052083333333333" />
+        <entry key="..\:/DashWood/Workspace/dashwoodgym/app/src/main/res/drawable/ic_pause.xml" value="0.27282051282051284" />
         <entry key="..\:/DashWood/Workspace/dashwoodgym/app/src/main/res/drawable/ic_plus.xml" value="0.27282051282051284" />
+        <entry key="..\:/DashWood/Workspace/dashwoodgym/app/src/main/res/drawable/ic_start.xml" value="0.27282051282051284" />
         <entry key="..\:/DashWood/Workspace/dashwoodgym/app/src/main/res/drawable/ic_trash.xml" value="0.27282051282051284" />
         <entry key="..\:/DashWood/Workspace/dashwoodgym/app/src/main/res/layout/activity_main.xml" value="0.2609375" />
         <entry key="..\:/DashWood/Workspace/dashwoodgym/app/src/main/res/layout/fragment_dialog_add_plant.xml" value="0.22" />
         <entry key="..\:/DashWood/Workspace/dashwoodgym/app/src/main/res/layout/fragment_list_gym_plant.xml" value="0.2609375" />
+        <entry key="..\:/DashWood/Workspace/dashwoodgym/app/src/main/res/layout/fragment_training.xml" value="0.24537037037037038" />
         <entry key="..\:/DashWood/Workspace/dashwoodgym/app/src/main/res/layout/rec_item_gym_plant.xml" value="0.2609375" />
       </map>
     </option>

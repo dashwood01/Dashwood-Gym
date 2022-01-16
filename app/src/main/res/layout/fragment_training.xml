@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="2sp"
+    android:background="@drawable/background_button_primary"
+    android:gravity="center_horizontal"
+    tools:context=".fragment.TrainingFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:id="@+id/layoutDetail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardViewWorkTime"
+                android:layout_width="0sp"
+                android:layout_height="150sp"
+                android:layout_margin="5sp"
+                android:layout_weight="1"
+                app:cardBackgroundColor="@color/dark_700"
+                app:cardCornerRadius="10sp">
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5sp"
+                        android:text="@string/txt_text_work_time_alone"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/txtTimeOfWork"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5sp" />
+                </androidx.appcompat.widget.LinearLayoutCompat>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardViewRestTime"
+                android:layout_width="0sp"
+                android:layout_height="150sp"
+                android:layout_margin="5sp"
+                android:layout_toEndOf="@id/cardViewWorkTime"
+                android:layout_weight="1"
+                app:cardBackgroundColor="@color/dark_700"
+                app:cardCornerRadius="10sp">
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5sp"
+                        android:text="@string/txt_text_rest_time_alone"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/txtTimeOfRest"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5sp" />
+                </androidx.appcompat.widget.LinearLayoutCompat>
+            </androidx.cardview.widget.CardView>
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:id="@+id/layoutMoreDetail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/layoutDetail"
+            android:orientation="horizontal">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0sp"
+                android:layout_height="150sp"
+                android:layout_margin="5sp"
+                android:layout_weight="1"
+                app:cardBackgroundColor="@color/dark_700"
+                app:cardCornerRadius="10sp">
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5sp"
+                        android:text="@string/txt_text_round_of_training"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/txtRoundOfTraining"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5sp" />
+                </androidx.appcompat.widget.LinearLayoutCompat>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0sp"
+                android:layout_height="150sp"
+                android:layout_margin="5sp"
+                android:layout_weight="1"
+                app:cardBackgroundColor="@color/dark_700"
+                app:cardCornerRadius="10sp">
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/txtWhatTimeNow"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5sp"
+                        android:text="@string/txt_text_rest_time_alone"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/txtTimer"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5sp" />
+                </androidx.appcompat.widget.LinearLayoutCompat>
+            </androidx.cardview.widget.CardView>
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/btnStartAndPause"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="5sp"
+            android:src="@drawable/ic_start"
+            app:backgroundTint="@color/color_orange"
+            app:tint="@color/white" />
+    </RelativeLayout>
+
+</androidx.core.widget.NestedScrollView>
