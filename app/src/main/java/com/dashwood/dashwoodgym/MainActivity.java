@@ -6,7 +6,10 @@ import androidx.navigation.fragment.NavHostFragment;
 import androidx.navigation.ui.AppBarConfiguration;
 import androidx.navigation.ui.NavigationUI;
 
+import android.content.Context;
 import android.os.Bundle;
+import android.os.PowerManager;
+import android.view.WindowManager;
 
 import com.dashwood.dashwoodgym.databinding.ActivityMainBinding;
 import com.dashwood.dashwoodgym.handler.HandlerReturnValue;
@@ -27,6 +30,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void setView() {
+        getWindow().addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
         mAppBarConfiguration = new AppBarConfiguration.Builder(
                 R.id.nav_list_plant)
                 .build();
