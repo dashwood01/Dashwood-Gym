@@ -23,6 +23,10 @@
         android:id="@+id/trainingFragment"
         android:name="com.dashwood.dashwoodgym.fragment.TrainingFragment"
         android:label="@string/fragment_training"
-        tools:layout="@layout/fragment_training" />
+        tools:layout="@layout/fragment_training">
+        <argument
+            android:name="arg_information_plant"
+            app:argType="com.dashwood.dashwoodgym.arg.PlantParcelable" />
+    </fragment>
 
 </navigation>

@@ -19,4 +19,8 @@
     <string name="txt_text_round_of_training">مانده از تمرین</string>
     <string name="txt_text_timer">زمان</string>
     <string name="txt_text_rest_time_alone">زمان استراحت</string>
+    <string name="edt_hint_round_of_training">تعداد دفعات تمرین</string>
+    <string name="toast_error_unknown">ارور ناشناخته</string>
+    <string name="toast_three_sec_start">سه ثانیه دیگه شروع به تمرین کنید</string>
+    <string name="toast_round_done">تمرین شما به اتمام رسید</string>
 </resources>

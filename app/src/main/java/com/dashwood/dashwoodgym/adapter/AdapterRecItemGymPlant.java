@@ -12,6 +12,7 @@ import com.dashwood.dashwoodgym.R;
 import com.dashwood.dashwoodgym.database.SyncDatabase;
 import com.dashwood.dashwoodgym.databinding.RecItemGymPlantBinding;
 import com.dashwood.dashwoodgym.diff.DiffGymPlantCallback;
+import com.dashwood.dashwoodgym.fragment.DialogGetRoundOfTrainingFragment;
 import com.dashwood.dashwoodgym.handler.HandlerReturnValue;
 import com.dashwood.dashwoodgym.inf.InformationPlant;
 import com.dashwood.dashwoodgym.log.T;
@@ -46,6 +47,12 @@ public class AdapterRecItemGymPlant extends RecyclerView.Adapter<AdapterRecItemG
                 return;
             List<InformationPlant> informationPlantList = new ArrayList<>(SyncDatabase.getDatabase(fragmentActivity).getAllPlants());
             updateList(informationPlantList);
+        });
+        holder.binding.vgRoot.setOnClickListener(v -> {
+            DialogGetRoundOfTrainingFragment dialogGetRoundOfTrainingFragment = new DialogGetRoundOfTrainingFragment();
+            dialogGetRoundOfTrainingFragment.setInformationPlant(informationPlant);
+            dialogGetRoundOfTrainingFragment.setView(v);
+            dialogGetRoundOfTrainingFragment.show(fragmentActivity.getSupportFragmentManager(), "show_get_round_training");
         });
     }
 

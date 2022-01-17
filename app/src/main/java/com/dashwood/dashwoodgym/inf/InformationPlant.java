@@ -1,7 +1,7 @@
 package com.dashwood.dashwoodgym.inf;
 
 public class InformationPlant {
-    private int id;
+    private int id,round;
     private String name, workTimeAsSec, restTimeAsSec;
 
     public int getId() {
@@ -34,5 +34,13 @@ public class InformationPlant {
 
     public void setRestTimeAsSec(String restTimeAsSec) {
         this.restTimeAsSec = restTimeAsSec;
+    }
+
+    public int getRound() {
+        return round;
+    }
+
+    public void setRound(int round) {
+        this.round = round;
     }
 }
