@@ -164,8 +164,8 @@ public class TrainingFragment extends Fragment {
         if (rounds == 0) {
             requireActivity().runOnUiThread(() -> {
                 T.toast(requireContext(), getString(R.string.toast_round_done));
-              if (restPlayer.isPlaying()) restPlayer.stop();
-        restPlayer.start();
+                if (restPlayer.isPlaying()) restPlayer.stop();
+                restPlayer.start();
                 Navigation.findNavController(binding.getRoot()).popBackStack();
             });
             return;

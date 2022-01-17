@@ -27,6 +27,11 @@
         <item name="android:textColor">@color/white</item>
     </style>
 
+    <style name="TextViewStyleEnFont" parent="Widget.AppCompat.TextView">
+        <item name="fontFamily">@font/mochiy_pop_one</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
     <style name="TextViewStyleNavigation" parent="Widget.AppCompat.TextView">
         <item name="fontFamily">@font/iran_bold_sans</item>
         <item name="android:textColor">@color/white</item>
